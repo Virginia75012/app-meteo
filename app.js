@@ -35,7 +35,7 @@ async function main(withIP = true) {
 
 	//3. Aller chercher les infos météo de la Ville :
 	//https://api.openweathermap.org
-	const meteo = await fetch('https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&units=metric&appid=cb901a7223fbb87d94e1799c3edfb63e')
+	const meteo = await fetch('https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&units=metric&appid=APIKEY')
 		.then(result => result.json())
 		.then(json => json)
 	//4.Affichage dynamique sur la page
