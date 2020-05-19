@@ -1,0 +1,61 @@
+.clear {
+	background-image: url('https://lh3.googleusercontent.com/cCDc3xGUHZ00B5jJoTAK1twF4alRJdqYOseCvZs66wItTlSojz92a5Cqc5qizQe0HFMAm3579cFjMXhundzK6pkCQcDqv1Ie');
+}
+
+.clouds {
+	background-image: url('https://cdn.shopify.com/s/files/1/1406/4308/articles/Looking-at-the-clouds-can-help-you-predict-bad-weather-_697_6052888_0_14103285_1000_1024x.jpg?v=1500990343');
+}
+
+.rain {
+	background-image: url('https://godo.io/wp-content/uploads/2018/10/bad-weather-tour-company.jpg');
+}
+
+.snow {
+	background-image: url('https://media.phillyvoice.com/media/images/08292018_Snow_Carroll.2e16d0ba.fill-735x490.jpg');
+}
+
+body {
+	font-family: 'Jost', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 600;
+	position: relative;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+i.wi {
+	font-size: 5em;
+	line-height: 3em;
+}
+
+.tool {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 480px;
+	color: #fff;
+	background-color: #222;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 12px;
+	transition: opacity .3s, top .5s;
+}
+
+h1:hover .tool {
+	top: -50px;
+	opacity: 1;
+}
